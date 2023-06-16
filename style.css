@@ -5,8 +5,6 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 body {
@@ -20,9 +18,9 @@ body {
 
 .card {
     display: flex;
-    width: 700px;
+    width: 800px;
     background-color: hsl(0, 0%, 100%);
-    padding: 20px;
+    padding: 15px;
     border-radius: 20px;
 }
 
@@ -40,4 +38,43 @@ body {
 
 ul {
     list-style-image: url(assets/images/icon-success.svg);
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px 20px;
+    font-family: inherit;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid hsl(231, 7%, 60%);
+}
+
+button {
+    font-family: inherit;
+    margin-top: 20px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(235, 18%, 26%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
 }
