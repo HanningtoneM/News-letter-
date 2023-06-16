@@ -39,7 +39,7 @@ To get a local copy up follow these simple example steps.
 
 ## Credits
 
-Template from this [Front-End Mentor](https://www.microverse.org/)
+Template from this [Front-End Mentor](https://www.frontendmentor.io/home)
 
 ## Contributers
 
